@@ -1,0 +1,24 @@
+.circular-photo {
+    width: 150px;            /* Set the width of the image */
+    height: 150px;           /* Set the height of the image */
+    border-radius: 50%;      /* This makes the image circular */
+    object-fit: cover;       /* Ensures the image fills the circle without distortion */
+    border: 2px solid #ccc; /* Optional: Adds a border around the image */
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Optional, adds space between columns */
+}
+
+.column {
+    flex: 1; /* This ensures both columns are of equal width */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
